@@ -22,7 +22,7 @@ export class Dots extends React.PureComponent {
   clickHandler(options, e) {
     // In Autoplay the focus stays on clicked button even after transition
     // to next slide. That only goes away by click somewhere outside
-    e.preventDefault();
+    //e.preventDefault();
     this.props.clickHandler(options);
   }
   render() {
@@ -77,8 +77,7 @@ export class Dots extends React.PureComponent {
 
     return React.cloneElement(this.props.appendDots(dots), {
       className: this.props.dotsClass,
-      ...mouseEvents,
-      onKeyDown
+      ...mouseEvents
     });
   }
 }

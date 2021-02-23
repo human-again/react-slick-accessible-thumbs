@@ -21,7 +21,8 @@ export default class CenterMode extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       dotsBefore: true,
-      waitForAnimate: true
+      waitForAnimate: true,
+      appendDots: dots => <fieldset>{dots}</fieldset>
     };
     return (
       <div>
