@@ -71,7 +71,7 @@ export class Dots extends React.PureComponent {
 
       let onClick = this.clickHandler.bind(this, dotOptions);
       dots = dots.concat(
-        React.cloneElement(this.props.customPaging(i), { onClick })
+        React.cloneElement(this.props.customPaging(i), { onClick, className })
       );
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "react-slick-accessible-thumbs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": " React port of slick carousel with accessible thumbnails",
   "main": "./lib",
   "files": [
