@@ -124,7 +124,6 @@ export const initializedState = spec => {
     }
     slideWidth = Math.ceil((listWidth - centerPaddingAdj) / spec.slidesToShow);
   } else {
-    console.log("slideWidth >>>listWidth>>>", listWidth);
     slideWidth = "100%";
   }
   let slideHeight =
